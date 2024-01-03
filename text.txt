@@ -1,0 +1,13 @@
+maze[row][column] = 'O';
+        for (int i=0;i<rows;i++)
+        {
+            for(int j = 0; j<columns;j++)
+            {
+                if (j == 29)
+                {
+                    System.out.println();
+                }
+                System.out.print(maze[i][j]);
+            }
+        }
+        maze[row][column] = ' ';
